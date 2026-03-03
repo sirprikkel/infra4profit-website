@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Infra4Profit Duurzame Energie – Zonneenergie, windenergie, WKK-systemen en middenspanningsnetwerken.">
+  <title>Duurzame Energie – Infra4Profit</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>tailwind.config={theme:{extend:{colors:{primary:'#0F172A',secondary:'#334155',accent:'#0369A1','accent-light':'#0EA5E9','accent-green':'#059669',bg:'#F8FAFC'},fontFamily:{sans:['Plus Jakarta Sans','sans-serif']}}}}</script>
+  <style>body{font-family:'Plus Jakarta Sans',sans-serif;}#mobile-menu{display:none;}#mobile-menu.open{display:flex;}</style>
+</head>
+<body class="bg-bg">
+<nav class="fixed w-full top-0 z-50 bg-primary/95 backdrop-blur-sm">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+    <a href="index.html" class="flex items-center gap-2 cursor-pointer"><div class="w-8 h-8 bg-accent rounded-md flex items-center justify-center"><svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div><span class="text-white font-bold text-lg">Infra4Profit</span></a>
+    <div class="hidden md:flex items-center gap-6">
+      <a href="index.html" class="text-slate-300 hover:text-white text-sm font-medium cursor-pointer transition-colors">Home</a>
+      <a href="telecom.html" class="text-slate-300 hover:text-white text-sm font-medium cursor-pointer transition-colors">Telecom</a>
+      <a href="datacenters.html" class="text-slate-300 hover:text-white text-sm font-medium cursor-pointer transition-colors">Datacenters</a>
+      <a href="technische-ruimtes.html" class="text-slate-300 hover:text-white text-sm font-medium cursor-pointer transition-colors">Technische Ruimtes</a>
+      <a href="duurzame-energie.html" class="text-white text-sm font-semibold cursor-pointer">Duurzame Energie</a>
+      <a href="contact.html" class="bg-accent text-white px-4 py-2 rounded-lg text-sm font-semibold cursor-pointer">Contact</a>
+    </div>
+    <button class="md:hidden text-white p-2 cursor-pointer" onclick="document.getElementById('mobile-menu').classList.toggle('open')"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+  </div>
+  <div id="mobile-menu" class="md:hidden flex-col bg-primary border-t border-slate-700 px-4 py-3 gap-2">
+    <a href="index.html" class="text-slate-300 hover:text-white py-2 text-sm block cursor-pointer">Home</a>
+    <a href="duurzame-energie.html" class="text-white py-2 text-sm font-semibold block">Duurzame Energie</a>
+    <a href="contact.html" class="bg-accent text-white px-4 py-2 rounded-lg text-sm font-semibold block text-center mt-2 cursor-pointer">Contact</a>
+  </div>
+</nav>
+
+<div class="pt-16">
+  <div style="background: linear-gradient(135deg, #0F172A 0%, #064E3B 100%);" class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="inline-flex items-center gap-2 bg-accent-green/20 border border-accent-green/30 rounded-full px-4 py-1.5 mb-4">
+        <svg class="w-4 h-4 text-accent-green" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+        <span class="text-accent-green text-sm font-medium">Groene Energie</span>
+      </div>
+      <h1 class="text-4xl font-bold text-white mb-3">Duurzame Energie</h1>
+      <p class="text-slate-300 text-lg max-w-2xl">Klimaatverandering tegengaan is een van de grootste uitdagingen. Bij Infra4Profit werken we samen met partners en experts om u de beste oplossing te bieden voor volledig groene energievoorziening.</p>
+    </div>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mb-12">
+      <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+        <div class="w-10 h-10 bg-yellow-50 rounded-lg flex items-center justify-center mb-3">
+          <svg class="w-5 h-5 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+        </div>
+        <h3 class="font-bold text-primary mb-2">Zonneenergie</h3>
+        <p class="text-slate-600 text-sm">Zonne-energiesystemen voor duurzame stroomopwekking.</p>
+      </div>
+      <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+        <div class="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center mb-3">
+          <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+        </div>
+        <h3 class="font-bold text-primary mb-2">Windenergie</h3>
+        <p class="text-slate-600 text-sm">Windenergie-oplossingen als duurzame energiebron.</p>
+      </div>
+      <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+        <div class="w-10 h-10 bg-accent-green/10 rounded-lg flex items-center justify-center mb-3">
+          <svg class="w-5 h-5 text-accent-green" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+        </div>
+        <h3 class="font-bold text-primary mb-2">Duurzame WKK-systemen</h3>
+        <p class="text-slate-600 text-sm">Warmtekrachtkoppeling voor efficiënte gecombineerde energie- en warmteopwekking.</p>
+      </div>
+      <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+        <div class="w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center mb-3">
+          <svg class="w-5 h-5 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"/></svg>
+        </div>
+        <h3 class="font-bold text-primary mb-2">Opslagsystemen</h3>
+        <p class="text-slate-600 text-sm">Energieopslag voor stabiliteit en beschikbaarheid van groene energie.</p>
+      </div>
+      <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+        <div class="w-10 h-10 bg-orange-50 rounded-lg flex items-center justify-center mb-3">
+          <svg class="w-5 h-5 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2"/></svg>
+        </div>
+        <h3 class="font-bold text-primary mb-2">Aggregaatsystemen</h3>
+        <p class="text-slate-600 text-sm">Noodstroom aggregaten voor bedrijfscontinuïteit bij stroomstoringen.</p>
+      </div>
+      <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+        <div class="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center mb-3">
+          <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/></svg>
+        </div>
+        <h3 class="font-bold text-primary mb-2">Middenspanningsnetwerken</h3>
+        <p class="text-slate-600 text-sm">Middenspannings- en laagspanningsnetwerken voor industriële toepassingen.</p>
+      </div>
+    </div>
+
+    <div style="background: linear-gradient(135deg, #059669 0%, #0369A1 100%);" class="rounded-2xl p-8 text-center">
+      <h2 class="text-2xl font-bold text-white mb-3">Samen naar volledig groene energie?</h2>
+      <p class="text-green-100 mb-6">Bij Infra4Profit werken we elke dag hard aan de beste duurzame energieoplossing voor u als klant.</p>
+      <a href="contact.html" class="bg-white text-accent-green px-8 py-3 rounded-lg font-semibold hover:bg-green-50 transition-colors cursor-pointer inline-block">Neem contact op</a>
+    </div>
+  </div>
+</div>
+<footer class="bg-primary py-8"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-2"><p class="text-slate-500 text-xs">© 2026 Infra4Profit BV — KvK: 82566534</p><p class="text-slate-500 text-xs">Gebouwd door <a href="https://www.code-lieshout.nl" class="text-accent hover:text-accent-light cursor-pointer">Code Lieshout</a></p></div></footer>
+</body></html>
